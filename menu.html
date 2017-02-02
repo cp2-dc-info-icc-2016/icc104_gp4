@@ -2,41 +2,35 @@
 <nav id="menu">
 	<ul>
 		<li><a href="#">Home</a></li>
-		<li><a href="#">Séries</a>
-			<ul>
+		<li><a href="#">Mais Vistas</a>
+			<ul id="sub">
 				<li> <a href="#">The Walking Dead</a><li>
-				<li> <a href="#">Sons of Anarchy</a><li>
 				<li> <a href="#">Scream</a><li>
-				<li> <a href="#">Pretty Little Liars</a><li>
 				<li> <a href="#">Grey's Anatomy</a><li>
 				<li> <a href="#">How to Get Away With Murder</a><li>
 				<li> <a href="#">Game of Thrones</a><li>
 				<li> <a href="#">Reign</a><li>
-				<li> <a href="#">Two and a Half Man</a><li>
-				<li> <a href="#">Friends</a><li>
-				<li> <a href="#">American Horror Story</a><li>
-			  <li> <a href="#">Orange is the New Black</a><li>
 		  </ul>
 		</li>
-		<li><a href="#">Missão</a></li>
-		<li><a href="#">Links</a></li>
+		<li><a href="#">Cadastre-se</a></li>
 		<li><a href="#">Contato</a></li>
 	</ul>
 </nav>
 </html>
 <style>
+
 #menu ul {
 	padding:0px;
 	margin:0px;
 	background-color:#EDEDED;
 	list-style:none;
 }
-#menu ul li { display: inline; }
+#menu ul li {
+	display: inline;
+}
 #menu ul li a {
 	padding: 2px 10px;
 	display: inline-block;
-
-	/* visual do link */
 	background-color:#EDEDED;
 	color: #333;
 	text-decoration: none;
@@ -47,4 +41,29 @@
 	color: #6D6D6D;
 	border-bottom:3px solid #EA0000;
 }
+#sub li:hover {
+    background: #555;
+}
+#sub {
+    list-style: none;
+    background: #444;
+    margin: 0;
+    padding: 0;
+		position: absolute;
+    min-width: 150px;
+		display: none;
+		text-align: center;
+}
+#menu li:hover #sub {
+    display: block;
+		width: 225px;
+}
+#menu li:hover #sub li{
+    display: block;
+		width: 225px;
+}
+#menu{
+  text-align: center;
+}
+
 </style>
