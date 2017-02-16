@@ -1,135 +1,13 @@
 <!DOCTYPE html>
-<style>
-    body{
-      background-color:black;
-    }
-    h1{
-      color: white;
-      font-size: 60px;
-      text-align: center;
-      font-family: fantasy;
-    }
-    h2{
-      color: #CD8500;
-      font-size: 40px;
-      text-align: center;
-      font-family: fantasy;
-    }
-    h3{
-      color:white;
-      font-size: 35px;
-      font-family: cursive;
-    }
-    .retangulo{
-
-
-      padding:5px;
-      margin: 100px;
-      width:center;
-    }
-
-    .poster {
-      padding: 10px;
-      width:300px;
-    }
-    .botoes{
-      background-color: #333240;
-      margin:10px;
-      padding:20px;
-      width: center;
-      border-radius: 10px 20px 30px;
-    }
-    .botao{
-      border: 5px;
-      width: center;
-      margin: 0 auto;
-      padding: 10px;
-      background-color: #E82307;
-    }
-
-    .retlogo{
-  margin-left: auto;
-  margin-right: auto;
-  width: 350px;
-  padding: 5px;
-  background-color: black;
-}
-
-#logoimagem {
-width: 350px;
-padding:0px;
-margin:0px;
-}
-
-#menu ul {
-	padding:0px;
-	margin:0px;
-	background-color:#EDEDED;
-	list-style:none;
-}
-#menu ul li {
-	display: inline;
-}
-#menu ul li a {
-	padding: 2px 10px;
-	display: inline-block;
-	background-color:#EDEDED;
-	color: #333;
-	text-decoration: none;
-	border-bottom:3px solid #EDEDED;
-}
-#menu ul li a:hover {
-	background-color:#D6D6D6;
-	color: #6D6D6D;
-	border-bottom:3px solid #EA0000;
-}
-.sub li:hover {
-    background: #555;
-}
-.sub {
-    list-style: none;
-    background: #444;
-    margin: 0;
-    padding: 0;
-		position: absolute;
-    min-width: 150px;
-		display: none;
-		text-align: center;
-}
-#menu li:hover .sub {
-    display: block;
-		width: 225px;
-}
-#menu li:hover .sub li{
-    display: block;
-		width: 225px;
-}
-#menu{
-  text-align: center;
-  width: 100%;
-  background-color: #EDEDED;
-}
-
-#menu-ul {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-</style>
+<link rel="stylesheet" type="text/css" href="style.css">
 
 <html>
-
   <head>
-
     <title> All About Series  </title>
     <meta charset="utf-8">
-
   </head>
 
   <body>
-
 <div class="retlogo">
   <img src="onlinelogomaker-102016-0953-3657.png" id=logoimagem alt="logo"/>
 </div>
@@ -138,14 +16,14 @@ margin:0px;
   <div id="menu-ul">
    	<ul>
    		<li><a href="projeto.html">Home</a></li>
-   		<li><a href="#">Mais Vistas</a>
+   		<li><a href="serie.html">Mais Vistas</a>
    			<ul class="sub">
-   				<li> <a href="#">The Walking Dead</a><li>
-   				<li> <a href="#">Scream</a><li>
-   				<li> <a href="#">Grey's Anatomy</a><li>
-   				<li> <a href="#">How to Get Away With Murder</a><li>
-   				<li> <a href="#">Game of Thrones</a><li>
-   				<li> <a href="reign.html">Reign</a><li>
+   				<li> <a href="detalhes.html?serie=twd">The Walking Dead</a><li>
+   				<li> <a href="detalhes.html?serie=scream">Scream</a><li>
+   				<li> <a href="detalhes.html?serie=ga">Grey's Anatomy</a><li>
+   				<li> <a href="detalhes.html?serie=htgawm">How to Get Away With Murder</a><li>
+   				<li> <a href="detalhes.html?serie=got">Game of Thrones</a><li>
+   				<li> <a href="detalhes.html?serie=reign">Reign</a><li>
    		  </ul>
    		</li>
    		<li><a href="#">Cadastre-se</a></li>
@@ -157,28 +35,22 @@ margin:0px;
  <br><br>
 
     <div class="retangulo">
-      <a href="..."><img class="poster" src="the-walking-dead-4-temporada-parte-2-poster.jpg"></a>
-      <a href="..."><img class="poster" src="feb4be4170078a1bdc69f2c856202ec1.jpg"></a>
-      <a href="..."><img class="poster" src="jj.png"><a>
-      <a href="..."><img class="poster" src="pll.png"><a>
-      <a href="..."><img class="poster" src="greys-main.jpg"></a>
-      <a href="..."><img class="poster" src="howtoget.jpg"><a>
-      <a href="..."><img class="poster" src="game-of-thrones-poster-300x444.jpg" ><a>
-      <a href="reign.html"><img class="poster" src="c63ea755c4c34e3c0aa225582455452cb7aca2ca444053281c47ef709e441fc2.jpg"><a>
-      <a href="..."><img class="poster" src="Two_and_a_Half_Men_(1ª_temporada).jpg" ><a>
-      <a href="friends.html"><img class="poster" src="MV5BMTg4NzEyNzQ5OF5BMl5BanBnXkFtZTYwNTY3NDg4._V1._CR24,0,293,443_UY1200_CR82,0,630,1200_AL_.jpg" ><a>
-      <a href="..."><img class="poster" src="2d82b3dc15be44de5d02cff7a8a5a716.jpg" ><a>
-      <a href="..."><img class="poster" src="cf604f6b58c09b0a783ba343ca9c34af.jpg" ><a>
-     </div>
+      <a href="detalhes.html?serie=twd"><img class="poster" src="the-walking-dead-4-temporada-parte-2-poster.jpg"></a>
+      <a href="detalhes.html?serie=soa"><img class="poster" src="feb4be4170078a1bdc69f2c856202ec1.jpg"></a>
+      <a href="detalhes.html?serie=scream"><img class="poster" src="jj.png"><a>
+      <a href="detalhes.html?serie=pll"><img class="poster" src="pll.png"><a>
+      <a href="detalhes.html?serie=ga"><img class="poster" src="greys-main.jpg"></a>
+      <a href="detalhes.html?serie=htgawm"><img class="poster" src="howtoget.jpg"><a>
+      <a href="detalhes.html?serie=got"><img class="poster" src="game-of-thrones-poster-300x444.jpg" ><a>
+      <a href="detalhes.html?serie=reign"><img class="poster" src="c63ea755c4c34e3c0aa225582455452cb7aca2ca444053281c47ef709e441fc2.jpg"><a>
+      <a href="detalhes.html?serie=tahm"><img class="poster" src="Two_and_a_Half_Men_(1ª_temporada).jpg" ><a>
+      <a href="detalhes.html?serie=friends"><img class="poster" src="MV5BMTg4NzEyNzQ5OF5BMl5BanBnXkFtZTYwNTY3NDg4._V1._CR24,0,293,443_UY1200_CR82,0,630,1200_AL_.jpg" ><a>
+      <a href="detalhes.html?serie=pb"><img class="poster" src="prisonbreak.jpg" ><a>
+      <a href="detalhes.html?serie=oitnb"><img class="poster" src="cf604f6b58c09b0a783ba343ca9c34af.jpg" ><a>
+    </div>
+
+  
 
   </body>
 
 </html>
-
-/**
-oitnb/ pll/ -> rose
-ga/ scream/ -> barroso
-soa/ ahs -> inacio
-twd/ got/ tahm-> jhonatan
-reign/ friends -> filgueiras
-**/
