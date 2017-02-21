@@ -6,18 +6,18 @@
       color: white;
       font-size: 60px;
       text-align: center;
-      font-family: fantasy;
+      font-family: verdana;
     }
     h2{
       color: #CD8500;
       font-size: 40px;
       text-align: center;
-      font-family: fantasy;
+      font-family: verdana;
     }
     h3{
       color:white;
       font-size: 35px;
-      font-family: cursive;
+      font-family: verdana;
     }
     .retangulo{
 
@@ -46,7 +46,7 @@
       background-color: #E82307;
     }
 
-    .retlogo{
+  .retlogo{
   margin-left: auto;
   margin-right: auto;
   width: 350px;
@@ -54,126 +54,188 @@
   background-color: black;
 }
 
-#logoimagem {
-width: 350px;
-padding:0px;
-margin:0px;
-}
+  #logoimagem {
+  width: 350px;
+  padding:0px;
+  margin:0px;
+  }
 
-#menu ul {
-	padding:0px;
-	margin:0px;
-	background-color:#EDEDED;
-	list-style:none;
-}
-#menu ul li {
-	display: inline;
-}
-#menu ul li a {
-	padding: 2px 10px;
-	display: inline-block;
-	background-color:#EDEDED;
-	color: #333;
-	text-decoration: none;
-	border-bottom:3px solid #EDEDED;
-}
-#menu ul li a:hover {
-	background-color:#D6D6D6;
-	color: #6D6D6D;
-	border-bottom:3px solid #EA0000;
-}
-.sub li:hover {
-    background: #555;
-}
-.sub {
-    list-style: none;
-    background: #444;
-    margin: 0;
-    padding: 0;
-		position: absolute;
-    min-width: 150px;
-		display: none;
-		text-align: center;
-}
-#menu li:hover .sub {
+  #menu ul {
+  	padding:0px;
+  	margin:0px;
+  	background-color:#EDEDED;
+  	list-style:none;
+  }
+  #menu ul li {
+  	display: inline;
+  }
+  #menu ul li a {
+  	padding: 2px 10px;
+  	display: inline-block;
+  	background-color:#EDEDED;
+  	color: #333;
+  	text-decoration: none;
+  	border-bottom:3px solid #EDEDED;
+  }
+  #menu ul li a:hover {
+  	background-color:#D6D6D6;
+  	color: #6D6D6D;
+  	border-bottom:3px solid #EA0000;
+  }
+  .sub li:hover {
+      background: #555;
+  }
+  .sub {
+      list-style: none;
+      background: #444;
+      margin: 0;
+      padding: 0;
+  		position: absolute;
+      min-width: 150px;
+  		display: none;
+  		text-align: center;
+  }
+  #menu li:hover .sub {
+      display: block;
+  		width: 225px;
+  }
+  #menu li:hover .sub li{
+      display: block;
+  		width: 225px;
+  }
+  #menu{
+    text-align: center;
+    width: 100%;
+    background-color: #EDEDED;
+  }
+
+  #menu-ul {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #serie_detalhes  {
+    display: inline;
+    font-size: 40px;
+    color: white;
+  }
+
+  label {
+    font-weight: bold;
+    color: black;
+  }
+
+  #galeria {
     display: block;
-		width: 225px;
-}
-#menu li:hover .sub li{
-    display: block;
-		width: 225px;
-}
-#menu{
-  text-align: center;
-  width: 100%;
-  background-color: #EDEDED;
-}
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
 
-#menu-ul {
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .item_galeria {
+    display: inline-block;;
+    width: 350px;
+    height: 500px;
+    border: 1px solid #dddddd;
+    background-color: #111111;
+    margin: 10px;
+    padding: 10px;
+  }
 
-#serie_detalhes {
-  display: inline;
+  .item_galeria img {
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #conteudo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 30%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: table;
+    background-color: #222222;
+    border: 1px solid #dddddd;
+  }
+
+  #esquerda {
+    padding: 20px;
+    width: 25%;
+    display: table-cell;
+    margin: 25px;
+    vertical-align: top;
+  }
+
+  #esquerda ul li {
+    margin-top: 25px;
+  }
+
+  #direita {
+    padding:120px;
+    width: 65%;
+    display: table-cell;
+    margin: 120px;
+    vertical-align: top;
+    color: grey;
+    font-family: verdana;
+    font-size: 13px;
+  }
+  #serie_detalhes {
+    color: #000000;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+
+  #contato {
+    background-color: #222222;
+    border: 1px solid #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+#eec {
   font-size: 40px;
+  color: #000000;
+  font-family: verdana;
+  font-weight: bold;
+  text-align: center;
 }
+.redes {
+  font-size: 30px;
+  color: grey;
+  font-family: verdana;
+  text-align: center;
 
-label {
+}
+.tipo {
+  color: white;
+}
+.dados {
+  color: white;
+}
+#cadastro{
+  font-size: 40px;
+  font-family: verdana;
+  color: white;
+  text-align: center;
+  color: #000000;
   font-weight: bold;
 }
-
-#galeria {
-  display: block;
+#preencha {
+  font-size: 30px;
+  font-family: verdana;
+  text-align: center;
+  color: grey;
+}
+#form {
+  background-color: #222222;
+  border: 1px solid #dddddd;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-}
-
-.item_galeria {
-  display: inline-block;;
-  width: 150px;
-  border: 1px solid #bbbbcc;
-  background-color: #ddddee;
-  margin: 10px;
-  padding: 10px;
-}
-
-.item_galeria img {
-  height: 200px;
-}
-#conteudo {
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: table;
-  background-color: #eeeeff;
-  border: 1px solid #bbbbcc;
-}
-
-#esquerda {
-  padding: 20px;
-  width: 25%;
-  display: table-cell;
-  margin: 25px;
-  vertical-align: top;
-}
-
-#esquerda ul li {
-  margin-top: 25px;
-}
-
-#direita {
-  padding: 20px;
-  width: 65%;
-  display: table-cell;
-  margin: 25px;
-  vertical-align: top;
-}
-
-.clear {
-  clear: both;
 }

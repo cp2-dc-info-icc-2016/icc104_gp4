@@ -176,7 +176,7 @@ function exibeDetalhes(item) {
   document.getElementById("status_detalhes").innerHTML = item.status;
   document.getElementById("duracao_detalhes").innerHTML = item.duracao;
   document.getElementById("n_temporadas_detalhes").innerHTML = item.n_temporadas;
-  document.getElementById("emissora_detalhes").innerHTML = item.emissoras;
+  document.getElementById("emissora_detalhes").innerHTML = item.emissora;
   document.getElementById("sinopse_detalhes").innerHTML = item.sinopse;
 }
 var serie = getParameterByName("serie");
