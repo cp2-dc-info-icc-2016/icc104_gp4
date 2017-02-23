@@ -1,0 +1,145 @@
+body {
+  margin: 0px;
+  color: #333344;
+}
+
+/* cabeçalho e menu */
+#cabecalho {
+  width: 100%;
+}
+
+#banner {
+  height: 150px;
+  background-color: #ddddee;
+  font-size: 80pt;
+  text-align: center;
+  padding: 20px;
+  color: #777788;
+}
+
+#menu {
+  background-color: #bbbbcc;
+  border: 1px solid #777788;
+}
+
+#menu ul {
+  margin: 0px;
+}
+
+.item_menu {
+  display: inline-block;
+  padding: 10px;
+
+}
+
+.item_menu a:link {
+  color: #222233;
+  text-decoration: none;
+}
+
+.item_menu a:visited {
+  color: #222233;
+  text-decoration: none;
+}
+
+.item_menu:hover {
+  background-color: #777788;
+}
+
+.item_menu:hover a{
+  color: #ddddee;
+  text-decoration: none;
+}
+
+/* divisão de página em esquerda e direita */
+#conteudo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: table;
+  background-color: #eeeeff;
+  border: 1px solid #bbbbcc;
+}
+
+#esquerda {
+  padding: 20px;
+  width: 25%;
+  display: table-cell;
+  margin: 25px;
+  vertical-align: top;
+}
+
+#esquerda ul li {
+  margin-top: 25px;
+}
+
+#direita {
+  padding: 20px;
+  width: 65%;
+  display: table-cell;
+  margin: 25px;
+  vertical-align: top;
+}
+
+.clear {
+  clear: both;
+}
+
+/* rodapé */
+
+#rodape {
+  width: 100%;
+}
+
+#rodape_espaco {
+  background-color: #ddddee;
+  margin: 0px;
+  padding: 10px;
+  padding-left: 50px;
+  color: #222233;
+}
+
+#rodape_autor {
+  background-color: #bbbbcc;
+  text-align: right;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 10pt;
+  border: 1px solid #777788;
+  color: #222233;
+}
+
+/* galeria */
+
+#galeria {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.item_galeria {
+  display: inline-block;;
+  width: 150px;
+  border: 1px solid #bbbbcc;
+  background-color: #ddddee;
+  margin: 10px;
+  padding: 10px;
+}
+
+.item_galeria img {
+  height: 200px;
+}
+
+/* detalhes do livro */
+
+#titulo_detalhes {
+  display: inline;
+  font-size: 40px;
+}
+
+label {
+  font-weight: bold;
+}
